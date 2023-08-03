@@ -1,0 +1,27 @@
+.header-bar {
+	display: block;
+	height: 60px;
+	background: $brand-primary;
+	margin: 0;
+	padding: 0;
+	position: relative;
+
+	h1 {
+		height: 60px;
+		line-height: 60px;
+		color: #fff;
+		font-size: 1.2em;
+	}
+
+	a {
+		display: block;
+		position: absolute;
+		top: 0;
+		right: 0;
+		height: 60px;
+		line-height: 60px;
+		padding: 0 20px;
+		color: #fff;
+		font-size: 1.2em;
+	}
+}

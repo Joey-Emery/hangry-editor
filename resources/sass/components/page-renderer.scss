@@ -1,0 +1,8 @@
+.page-renderer {
+	@include align-center;
+	width: 320px;
+	height: 600px;
+	background: #fff;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}

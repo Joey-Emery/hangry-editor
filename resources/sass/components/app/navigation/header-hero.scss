@@ -1,0 +1,37 @@
+.header-hero {
+	display: block;
+	margin: 0;
+	padding: 0;
+	
+	.glide {
+		position: relative;
+
+		.glide__slide {
+			img {
+				width: 100%;
+			}
+		}
+
+		.glide__bullets {
+			position: absolute;
+			left: 0;
+			bottom: 10px;
+			width: 100%;
+			text-align: center;
+
+			button {
+				width: 10px;
+				height: 10px;
+				padding: 0;
+				border-radius: 100%;
+				border: none;
+				background: rgba(255, 255, 255, .7);
+				margin: 0 10px;
+
+				&.glide__bullet--active {
+					background: $brand-primary;
+				}
+			}
+		}
+	}
+}

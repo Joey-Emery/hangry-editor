@@ -1,0 +1,30 @@
+form.login {
+	@include clearfix;
+	margin: 0;
+	padding: 0;
+
+	.form-group {
+		label {
+			display: block;
+			margin: 0 0 10px 0;
+			font-size: 0.8em;
+			color: #aaa;
+			text-transform: uppercase;
+			letter-spacing: 1px;
+			font-weight: 300;
+		}
+
+		.form-control {
+			height: auto;
+			padding: 12px;
+			border-color: #ddd;
+			outline: none;
+			box-shadow: none;
+		}
+	}
+
+	.btn {
+		border: none;
+		padding: 10px 25px;
+	}
+}

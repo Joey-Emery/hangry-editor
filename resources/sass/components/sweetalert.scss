@@ -1,0 +1,34 @@
+.swal2-container {
+    padding: 30px !important;
+
+    .swal2-popup {
+        font-size: 1.2em;
+        padding: 30px;
+
+        #swal2-content, .swal2-html-container {
+            font-size: 1em;
+            color: #aaa;
+        }
+
+        .swal2-title {
+            font-size: 1.4em;
+        }
+
+        .swal2-confirm {
+            background: $brand-primary !important;
+            background-color: $brand-primary !important;
+            border: none !important;
+            outline: none !important;
+            -webkit-outline: none !important;
+            font-size: 1em !important;
+        }
+    }
+}
+
+html.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown), body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown) {
+    overflow-y: visible !important;
+}
+
+.swal2-shown {
+    height: 100%;
+}
